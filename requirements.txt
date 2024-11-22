@@ -1,0 +1,4 @@
+Pillow<11,>=7.1.0
+streamlit==1.38.0
+ultralytics==8.3.29
+torchvision==0.20.1
