@@ -45,17 +45,17 @@ The model was trained using **YOLOv8m-cls** in a Google Colab environment. The t
 ## Results and Visualizations
 
 ### Confusion Matrix (Normalized)
-#The confusion matrix highlights the performance of the model across different categories.  
+The confusion matrix highlights the performance of the model across different categories.  
 ---
 ![Confusion Matrix](classify/confusion_matrix.png)
 
 ### Training Results
-#Visualization of training metrics such as accuracy, loss, and learning rate.  
+Visualization of training metrics such as accuracy, loss, and learning rate.  
 ---
 ![Training Results](classify/results.png)
 
 ### Sample Predictions
-#Here are some sample predictions made by the model:
+Here are some sample predictions made by the model:
 
 - **Training Batch Visualization**
   ---  
