@@ -28,3 +28,36 @@ The model was trained using **YOLOv8m-cls** in a Google Colab environment. The t
    import os
    colab_dir = "/content/drive/MyDrive/Waste_classification"
    os.chdir(colab_dir)
+
+2. **Data Preparation**:  
+   The dataset was extracted and organized. It contains 10 waste categories with images pre-processed (auto-oriented, resized to 224x224 pixels).  
+
+   ```python
+   !unzip Classification_waste.zip
+
+3. **Training Command**:  
+   The model was trained for 50 epochs with the following command:
+   ```python
+   !yolo task=classify mode=train model=yolov8m-cls.pt data="/content/drive/MyDrive/Waste_classification/Classification_waste 2/data" epochs=50 imgsz=224
+
+---
+
+## Results and Visualizations
+
+### Confusion Matrix (Normalized)
+The confusion matrix highlights the performance of the model across different categories.  
+![Confusion Matrix](classify/confusion_matrix.png)
+
+### Training Results
+Visualization of training metrics such as accuracy, loss, and learning rate.  
+![Training Results](classify/results.png)
+
+### Sample Predictions
+Here are some sample predictions made by the model:
+
+- **Training Batch Visualization**  
+  ![Train Batch](classify/train_batch1.jpg)
+
+- **Validation Predictions**  
+  ![Validation Batch 1](classify/val_batch1_pred.jpg)  
+  ![Validation Batch 2](classify/val_batch2_pred.jpg)
