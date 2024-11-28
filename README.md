@@ -57,7 +57,7 @@ The model was trained using **YOLOv8m-cls** in a Google Colab environment. The t
 ### Confusion Matrix (Normalized)
 The confusion matrix highlights the performance of the model across different categories.  
 ---
-![Confusion Matrix](classify/confusion_matrix.png)
+![Confusion Matrix](classify/confusion_matrix_normalized.png)
 
 ### Training Results
 Visualization of training metrics such as accuracy, loss, and learning rate.  
