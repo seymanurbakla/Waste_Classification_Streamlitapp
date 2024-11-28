@@ -66,5 +66,24 @@ Here are some sample predictions made by the model:
 - **Validation Predictions**  
   ![Validation Batch 1](classify/val_batch1_pred.jpg)
 
-  --- 
+  ---
+  
   ![Validation Batch 2](classify/val_batch2_pred.jpg)
+
+
+## Future Work
+
+- Extend the model to support additional waste categories.
+- Enhance the app interface with more interactive elements.
+- Incorporate feedback mechanisms to improve model accuracy further.
+
+---
+
+## Acknowledgments
+
+This project was built using:
+
+- **YOLOv8m-cls**: For robust classification capabilities.
+- **Streamlit**: For creating a user-friendly interface.
+- **Roboflow**: For providing a high-quality dataset.
+
