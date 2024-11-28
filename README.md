@@ -71,12 +71,6 @@ Here are some sample predictions made by the model:
   ![Validation Batch 2](classify/val_batch2_pred.jpg)
 
 
-## Future Work
-
-- Extend the model to support additional waste categories.
-- Enhance the app interface with more interactive elements.
-- Incorporate feedback mechanisms to improve model accuracy further.
-
 ---
 
 ## Acknowledgments
