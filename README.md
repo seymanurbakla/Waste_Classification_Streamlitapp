@@ -1,7 +1,18 @@
 # Waste Classification Streamlit App
 
-This repository contains a Streamlit application for waste classification using an AI model developed with YOLOv8m-cls. The application can accurately classify waste into 10 categories: **biodegradable, cardboard, glass, gloves, masks, medicines, metal, paper, plastic, syringe, and organic waste**.
+This repository contains a Streamlit application for waste classification using an AI model developed with YOLOv8m-cls. The application can accurately classify waste into 10 categories:
 
+- **biodegradable**  
+- **cardboard**  
+- **glass**  
+- **gloves**  
+- **masks**  
+- **medicines**  
+- **metal**  
+- **paper**  
+- **plastic**  
+- **syringe**
+- 
 ---
 
 ## Project Overview
