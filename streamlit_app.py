@@ -19,7 +19,7 @@ from ultralytics import YOLO
 # Title and description
 st.title("Waste Classification Streamlit App")
 st.write("""
-This app helps classify waste into 10 categories using a YOLOv8 classification model:
+This app helps classify waste into 9 categories using a YOLOv8 classification model:
 - Biodegradable
 - Cardboard
 - Glass
@@ -29,7 +29,6 @@ This app helps classify waste into 10 categories using a YOLOv8 classification m
 - Metal
 - Paper
 - Plastic
-- Syringe
 
 Upload an image of waste, and the model will classify it to promote recycling and environmental awareness. 🌱
 """)
@@ -66,7 +65,7 @@ if uploaded_file is not None:
     # Define class labels
     class_labels = [
         "Biodegradable", "Cardboard", "Glass", "Gloves", "Masks",
-        "Medicines", "Metal", "Paper", "Plastic", "Syringe"
+        "Medicines", "Metal", "Paper", "Plastic"
     ]
     predicted_class = class_labels[class_index]
 
