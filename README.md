@@ -12,7 +12,6 @@ This repository contains a Streamlit application for waste classification using 
 - **paper**  
 - **plastic**  
 - **syringe**
-- 
 ---
 
 ## Project Overview
